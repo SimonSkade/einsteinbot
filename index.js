@@ -28,4 +28,4 @@ client.on('message', message => {
 
 
 
-client.login('NzgxMzM5ODU2OTkwODk2MTM5.X78Ncg.cZidR0RAYFtNHtUFdr_2_g5ov00');
+client.login(fs.readFileSync('token.secret').toString());
